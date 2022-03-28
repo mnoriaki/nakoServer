@@ -46,18 +46,20 @@ export NODE_PATH=/opt/homebrew/lib/node_modules
 サーバを起動したらブラウザからアクセスしてみましょう。
 http://localhost:8080/ もしくは http://127.0.0.1:8080/ を開いて下さい。cmd.exe の表示にサーバが接続を受け付ける IP アドレスを表示するので、それを使えば同一ネットワークの他のPCやスマートフォンなどからアクセスできます。chat.nako3 はチャットサーバなので、ブラウザで2つウィンドウまたはタブを開くか、別のスマートフォン/PCなどを使って同時にアクセスしてみて下さい。 
 
-<img src="shell.png" alt="シェル上の表示例" width="400">
+<img src="cmdexe.png" alt="シェル上の表示例" width="400">
 
 プログラムの終了は実行画面(背景が黒いウインドウ)で、Ctrl キーを押しながら Cのキーを押す(Ctrl-C) と「バッチ ジョブを終了しますか (Y/N)?」と聞かれるので y を入れ、エンターキーを押します。 
 
 ### Linux / MacOS の場合
 シェル（ターミナル）から cnako3 を使って nako3 ファイルを実行して下さい。サーバを起動したらブラウザからアクセスしてみましょう。URL などは Windows の場合と同じです。プログラムを止めるときは Ctrl-C で止めて下さい。
 
+<img src="shell.png" alt="シェル上の表示例" width="400">
+
 ## 動作の説明
 ### 動作の概要
  診断メーカーで構成を説明します。なでしこで書いたプログラムは shindan.nako3 です。ほかに data1 フォルダ内の fukidashi.css, icon.png, index.html, main.js で構成しています。index.html にブラウザに表示する基本的な部分を書いてあります。またファイルの先頭で、ブラウザに表示する名前を入れている変数に名前「なでしこ」が入っています。icon.png は、診断メーカーのアイコンになっているファイルです。この二つを変えると名前とアイコンが変わります。
 
-<img src="outline.png" alt="動作の概要説明図" width="400">
+<img src="outline.png" alt="動作の概要説明図" width="800">
 
 fukidashi.css は、表示を吹き出し風にするために使っています。CSS (Cascading Style Sheets, カスケーディングスタイルシート)は HTML の見え方を指定する言語で、fukidashi.css は CSS 言語で書かれたファイルです。HTML だけだと表示がそっけなくなるのを吹き出し風にしています。このファイルのオリジナルは、セイさんによるものhttps://jisuijisan.com/speech-bubble/です。
 
