@@ -17,6 +17,7 @@ Windows 10, macOS, Linux でテストしています。[コンソール版のな
 実行には nadesiko3-websocket プラグインが必要です。プラグインのインストールは次のようにします。
 
 #### Windows の場合
+v3.2.51 以降では nadesiko3-websocket が含まれているので下記は不要です：
 1. npm-install.vbs をダブルクリックして起動し、nadesiko3-webscoket をインストールします。
 1. node_modules 内に fs-extra フォルダを作成します。
 1. npm-update.vbs をダブルクリックして起動し、アップデートを実行します。
